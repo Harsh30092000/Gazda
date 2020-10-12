@@ -35,24 +35,12 @@ retailers:
 
 
 
-8489173783:
+Table of Famer/Retailer:
     goods name
     IsOrganic
-    date posted
+    date posted =>yyyy-mm-dd
     quantity
     region
-    offererd price
+    offererd price/Price
     Shipping type
-    IsAvaliable
-    count() => to see trusted
-
-
-
-
-import datetime
-
-x = datetime.datetime.now()
-print(str(x).split()[0])
-
-print(x)
-    
+    IsAvaliable =>Always 1
